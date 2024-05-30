@@ -5,12 +5,14 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: #012D5A;
 }
 
 $base-color: #012D5A;
 $second-color: #409FFD;
 $accent-color: #f6e058;
 $text-white: #ffffff;
+$color-logo: #D9DCDD;
 
 .header-wrapper{
   background-color: $base-color;
@@ -34,13 +36,16 @@ $text-white: #ffffff;
     h1 {
       margin: 0;
       font-weight: 700;
-      font-size: 30px;
+      font-size: 40px;
     }
   }
 }
 .main-wrapper-blocks{
   display: flex;
   justify-content: space-between;
+}
+.main-blocks-section{
+  max-width: 700px;
 }
 .main-block {
   display: flex;

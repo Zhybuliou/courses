@@ -7,6 +7,7 @@ import {
   FcSportsMode,
 } from 'react-icons/fc';
 import ImageWomen from '../assets/women.png';
+import CallButton from './call-button/CallButton';
 
 export default function Main() {
   return (
@@ -20,47 +21,49 @@ export default function Main() {
             вопросы касательно курса, а также условия дальнейшего сотрудничества.
           </p>
           <div className="main-wrapper-blocks">
-            <div className="main-blocks">
-              <div className="main-block">
-                <FcGraduationCap size="180px" />
-                <div className="main-block-content">
-                  <p>
-                    Спикерами курса будут 3 (Три). Лицензированных специалиста от IRS, а также
-                    Лицензированный Финансовый консультант.
-                  </p>
+            <div className="main-blocks-section">
+              <div className="main-blocks">
+                <div className="main-block">
+                  <FcGraduationCap size="180px" />
+                  <div className="main-block-content">
+                    <p>
+                      Спикерами курса будут 3 (Три) Лицензированных специалиста от IRS, а также
+                      Лицензированный Финансовый консультант.
+                    </p>
+                  </div>
+                </div>
+                <div className="main-block">
+                  <FcPlanner size="80px" />
+                  <div className="main-block-content">
+                    <p>
+                      Длительность курса 15 занятий. <br /> (2-3 часа в зависимости от темы и
+                      необходимости).
+                    </p>
+                  </div>
+                </div>
+                <div className="main-block">
+                  <FcConferenceCall size="80px" />
+                  <div className="main-block-content">
+                    <p>Количество участников ограничено - 50 человек.</p>
+                  </div>
+                </div>
+                <div className="main-block">
+                  <FcMoneyTransfer size="140px" />
+                  <div className="main-block-content">
+                    <p>
+                      Стоимость курса 1250$, при записи,прохождении интервью и оплате до 17 июля,
+                      потом цена 1500$.
+                    </p>
+                  </div>
+                </div>
+                <div className="main-block">
+                  <FcSportsMode size="80px" />
+                  <div className="main-block-content">
+                    <p>Начало обучения - 1 Июля 2024 года.</p>
+                  </div>
                 </div>
               </div>
-              <div className="main-block">
-                <FcPlanner size="80px" />
-                <div className="main-block-content">
-                  <p>
-                    Длительность курса 15 занятий. <br /> (2-3 часа в зависимости от темы и
-                    необходимости).
-                  </p>
-                </div>
-              </div>
-              <div className="main-block">
-                <FcConferenceCall size="80px" />
-                <div className="main-block-content">
-                  <p>Количество участников ограничено - 50 человек.</p>
-                </div>
-              </div>
-              <div className="main-block">
-                <FcMoneyTransfer size="140px" />
-                <div className="main-block-content">
-                  <p>
-                    Стоимость курса 1250$, при записи,прохождении интервью и оплате до 17 июля,
-                    потом цена 1500$.
-                  </p>
-                </div>
-              </div>
-              <div className="main-block">
-                <FcSportsMode size="80px" />
-                <div className="main-block-content">
-                  <p>Начало обучения - 1 Июля 2024 года.</p>
-                </div>
-              </div>
-              <button type="button">Click me!!!!</button>
+              <CallButton />
             </div>
             <div className="main-image-block">
               <img src={ImageWomen} alt="women" />

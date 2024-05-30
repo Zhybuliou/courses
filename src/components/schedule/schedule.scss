@@ -1,0 +1,74 @@
+.schedule-wrapper{
+    background-color: #012D5A;
+    padding-top: 40px;
+    h3 {
+        margin: 0;
+        font-size: 40px;
+        color: #ffffff;
+        text-align: center;
+    }
+}
+.calendar-cards {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .calendar-cards h2 {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #faaf11;
+    letter-spacing: -1px;
+  }
+  .calendar-card {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    min-width: 300px;
+    height: 380px;
+    box-shadow:
+      rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #f8f9fa;
+  }
+  .calendar-card-description {
+    width: 380px;
+    min-height: 220px;
+    padding: 0 10px 0 10px;
+    color: #66717a;
+    font-size: 16px;
+    ol{    
+        padding: 0px 18px;
+        li{
+            margin: 5px 0px;
+        }
+        li::marker{
+            font-weight: 700;
+        }
+    }
+  }
+  .calendar-card-mentors{
+    padding: 0 10px;
+    h5{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    ul{
+        margin: 0;
+        padding: 0 5px;
+        list-style-type: none;
+        li{
+            margin: 0;
+            padding: 0;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+  }
