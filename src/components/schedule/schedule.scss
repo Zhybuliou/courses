@@ -1,6 +1,7 @@
 .schedule-wrapper{
     background-color: #012D5A;
-    padding-top: 40px;
+    padding: 40px 10px 0px 10px;
+
     h3 {
         margin: 0;
         font-size: 40px;
@@ -75,6 +76,7 @@
   @media (max-width: 839px) {
     .calendar-card {
         height: auto;
+        width: 320px;
       }
       .calendar-card-description {
         min-height: auto;
