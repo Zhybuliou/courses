@@ -224,11 +224,6 @@ export default function Schedule() {
               <li>Marketplace health insurance (Obamacare).</li>
               <li>HSA/FSA.</li>
               <li>Финансовое планирование.</li>
-              <li>
-                В каких случаях обязательно подавать на продление. Нужно ли подавать отдельно штат.
-              </li>
-              <li>Штаты без налога.</li>
-              <li>Структура налоговой декларации физ.лица.</li>
             </ol>
           </div>
           <div className="calendar-card-mentors">
