@@ -1,3 +1,4 @@
+import CallButton from '../call-button/CallButton';
 import './schedule.scss';
 
 export default function Schedule() {
@@ -23,8 +24,8 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лео Гордон - Зарегистрированный Агент</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Leo Gordon - Enrolled Agent</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -42,7 +43,7 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -56,8 +57,8 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лео Гордон - Зарегистрированный Агент</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Leo Gordon - Enrolled Agent</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -74,7 +75,7 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -93,7 +94,7 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -107,8 +108,8 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лео Гордон - Зарегистрированный Агент</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Leo Gordon - Enrolled Agent</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -128,7 +129,7 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -146,7 +147,7 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -160,8 +161,8 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лео Гордон - Зарегистрированный Агент</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Leo Gordon - Enrolled Agent</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -178,7 +179,7 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -196,7 +197,7 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -210,8 +211,8 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лео Гордон - Зарегистрированный Агент</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Leo Gordon - Enrolled Agent</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -233,8 +234,8 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Александр Канделаки - Финансовый Консультант</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Alexander Kandelaki - Financial Advisor</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
@@ -250,14 +251,14 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лео Гордон - Зарегистрированный Агент</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Leo Gordon - Enrolled Agent</li>
+              <li>Lena Adams - Enrolled Agent</li>
               <li>
-                Дмитрий Аршинов - Зарегистрированный Агент,
+                Dmytro Arshynov - Enrolled Agent,
                 <br />
-                Cпециалист по Налоговому Разрешению,
+                Tax Resolution Specialist,
                 <br />
-                Cертифицированный налоговый тренер
+                Certified Tax Coach
               </li>
             </ul>
           </div>
@@ -272,12 +273,13 @@ export default function Schedule() {
           <div className="calendar-card-mentors">
             <h5>Спикеры:</h5>
             <ul>
-              <li>Лео Гордон - Зарегистрированный Агент</li>
-              <li>Лена Адамс - Зарегистрированный Агент</li>
+              <li>Leo Gordon - Enrolled Agent</li>
+              <li>Lena Adams - Enrolled Agent</li>
             </ul>
           </div>
         </div>
       </div>
+      <CallButton />
     </section>
   );
 }

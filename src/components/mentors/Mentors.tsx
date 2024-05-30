@@ -18,18 +18,10 @@ export default function Mentors() {
               style={{ backgroundImage: `url(${ImageTeacher})` }}
             />
             <h5>
-              Лена
-              <br /> Адамс
+              Lena
+              <br /> Adams
             </h5>
-            <p>Зарегистрированный Агент</p>
-          </div>
-          <div className="teachers-card">
-            <div
-              className="teachers-card-avatar"
-              style={{ backgroundImage: `url(${ImageTeacher2})` }}
-            />
-            <h5>Александр Канделаки</h5>
-            <p>Финансовый Консультант</p>
+            <p>Enrolled Agent</p>
           </div>
           <div className="teachers-card">
             <div
@@ -37,20 +29,28 @@ export default function Mentors() {
               style={{ backgroundImage: `url(${ImageTeacher3})` }}
             />
             <h5>
-              Лео
-              <br /> Гордон
+              Leo
+              <br /> Gordon
             </h5>
-            <p>Зарегистрированный Агент</p>
+            <p>Enrolled Agent</p>
           </div>
           <div className="teachers-card">
             <div
               className="teachers-card-avatar"
               style={{ backgroundImage: `url(${ImageTeacher4})` }}
             />
-            <h5>Дмитрий Аршинов</h5>
-            <p>Зарегистрированный Агент</p>
-            <p>Cпециалист по Налоговому Разрешению</p>
-            <p>Cертифицированный налоговый тренер</p>
+            <h5>Dmytro Arshynov</h5>
+            <p>Enrolled Agent</p>
+            <p>Tax Resolution Specialist</p>
+            <p>Certified Tax Coach</p>
+          </div>
+          <div className="teachers-card">
+            <div
+              className="teachers-card-avatar"
+              style={{ backgroundImage: `url(${ImageTeacher2})` }}
+            />
+            <h5>Alexander Kandelaki</h5>
+            <p>Financial Advisor</p>
           </div>
         </div>
       </div>

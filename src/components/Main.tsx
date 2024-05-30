@@ -14,7 +14,7 @@ export default function Main() {
     <div className="main-wrapper">
       <div className="main-content">
         <div className="main-text">
-          <h1>Обучения по программе: «Налоговый специалист в США».</h1>
+          <h1>Обучение по программе: «Налоговый специалист в США».</h1>
           <p>
             Чтобы попасть на курс, кроме оплаты, необходимо пройти бесплатное 15 минутное
             собеседование с Lena Adams, через Zoom платформу, где вы получите ответы на все свои
@@ -36,8 +36,7 @@ export default function Main() {
                   <FcPlanner size="80px" />
                   <div className="main-block-content">
                     <p>
-                      Длительность курса 15 занятий. <br /> (2-3 часа в зависимости от темы и
-                      необходимости).
+                      Длительность курса 15 занятий. <br /> С 1 июля по 16 августа.
                     </p>
                   </div>
                 </div>
@@ -51,7 +50,7 @@ export default function Main() {
                   <FcMoneyTransfer size="140px" />
                   <div className="main-block-content">
                     <p>
-                      Стоимость курса 1250$, при записи,прохождении интервью и оплате до 17 июля,
+                      Стоимость курса 1250$, при записи,прохождении интервью и оплате до 17 июня,
                       потом цена 1500$.
                     </p>
                   </div>
