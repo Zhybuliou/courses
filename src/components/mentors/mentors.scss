@@ -64,3 +64,9 @@
       font-size: 40px;
     }
   }
+  @media (max-width: 450px) {
+    .teachers-card {
+      margin: 10px;
+      height: auto;
+    }
+  }

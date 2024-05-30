@@ -9,7 +9,7 @@ export default function Mentors() {
     <section className="mentors-wrapper">
       <div className="teachers">
         <div className="teachers-header">
-          <h3>Ведущие вебинара</h3>
+          <h3>Обучение проводят</h3>
         </div>
         <div className="teachers-cards">
           <div className="teachers-card">
