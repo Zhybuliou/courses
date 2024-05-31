@@ -86,3 +86,26 @@
         padding-bottom: 10px;
       }
   }
+
+  ol {
+    list-style-type: none; 
+    counter-reset: num;
+  }
+  ol li {
+    position: relative;	
+  }
+  ol li:before {
+    content: counter(num); 
+    counter-increment: num;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -22px;
+    width: 18px;
+    height: 18px;
+    background: #FAAF11;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50%;
+  }
