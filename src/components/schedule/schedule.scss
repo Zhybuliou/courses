@@ -20,6 +20,7 @@
   }
   .calendar-cards h2 {
     margin: 10px;
+    padding-bottom: 4px;
     text-align: center;
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
@@ -27,6 +28,7 @@
     font-style: normal;
     color: #faaf11;
     letter-spacing: -1px;
+    border-bottom: 3px dashed #66717a6a;
   }
   .calendar-card {
     position: relative;
@@ -41,14 +43,14 @@
   }
   .calendar-card-description {
     width: 380px;
-    min-height: 220px;
+    min-height: 200px;
     padding: 0 10px 0 10px;
     color: #66717a;
     font-size: 16px;
     ol{    
         padding: 0px 18px;
         li{
-            margin: 5px 0px;
+            margin: 7px 0px;
         }
         li::marker{
             font-weight: 700;
