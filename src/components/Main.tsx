@@ -33,12 +33,9 @@ export default function Main() {
                   </div>
                 </div>
                 <div className="main-block">
-                  <FcPlanner size={56} />
+                  <FcPlanner size={80} />
                   <div className="main-block-content">
-                    <p>
-                      Длительность курса 15 занятий.
-                      <br /> С 1 июля по 16 августа.
-                    </p>
+                    <p>Длительность курса 15 занятий. Начало с 1 июля по 16 августа.</p>
                   </div>
                 </div>
                 <div className="main-block">
