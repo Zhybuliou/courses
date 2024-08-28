@@ -1,5 +1,10 @@
-import React from 'react';
-import { FcGraduationCap, FcPlanner, FcMoneyTransfer, FcSportsMode, FcClock } from 'react-icons/fc';
+import {
+  FcGraduationCap,
+  FcPlanner,
+  FcMoneyTransfer,
+  FcClock,
+  FcSalesPerformance,
+} from 'react-icons/fc';
 import CallButton from './call-button/CallButton';
 import ImageCard from './image-card/ImageCard';
 
@@ -25,21 +30,21 @@ export default function Main() {
                   </div>
                 </div>
                 <div className="main-block">
-                  <FcMoneyTransfer size="80px" />
+                  <FcSalesPerformance size="60px" />
                   <div className="main-block-content">
-                    <p>Стоимость курса 1700$. Скидки при раннем бронировании.</p>
-                  </div>
-                </div>
-                <div className="main-block">
-                  <FcSportsMode size="80px" />
-                  <div className="main-block-content">
-                    <p>Начало обучения - 29 октября 2024 года.</p>
+                    <p>Скидки при раннем бронировании.</p>
                   </div>
                 </div>
                 <div className="main-block">
                   <FcClock size="80px" />
                   <div className="main-block-content">
                     <p>Длительность каждого урока 3-3,5 часа (с перерывом)</p>
+                  </div>
+                </div>
+                <div className="main-block">
+                  <FcMoneyTransfer size="60px" />
+                  <div className="main-block-content">
+                    <p>Стоимость курса 1700$.</p>
                   </div>
                 </div>
               </div>

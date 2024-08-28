@@ -56,6 +56,7 @@ $color-logo: #D9DCDD;
   align-items: center;
   margin: 5px;
   max-width: 320px;
+  min-width: 320px;
   height: 80px;
   padding: 5px 10px 5px 10px;
   background-color: #ffffff;
@@ -105,5 +106,10 @@ $color-logo: #D9DCDD;
     p{
       padding: 0 15px;
     }
+  }
+}
+@media (max-width: 420px) {
+  .main-block {
+    min-width: 200px;
   }
 }
