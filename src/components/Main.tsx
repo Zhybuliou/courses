@@ -15,7 +15,7 @@ export default function Main() {
                 <div className="main-block">
                   <FcGraduationCap size="80px" />
                   <div className="main-block-content">
-                    <p>Спикерами курса будут 5 Лицензированных специалиста.</p>
+                    <p>Спикерами курса 5 Лицензированных специалиста.</p>
                   </div>
                 </div>
                 <div className="main-block">
