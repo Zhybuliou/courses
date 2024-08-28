@@ -3,6 +3,7 @@ import ImageTeacher from '../../assets/mentors/team-1.jpeg';
 import ImageTeacher2 from '../../assets/mentors/team-2.jpeg';
 import ImageTeacher3 from '../../assets/mentors/team-3.jpeg';
 import ImageTeacher4 from '../../assets/mentors/team-4.jpeg';
+import ImageTeacher5 from '../../assets/mentors/team-5.jpg';
 
 export default function Mentors() {
   return (
@@ -51,6 +52,14 @@ export default function Mentors() {
             />
             <h5>Alexander Kandelaki</h5>
             <p>Financial Advisor</p>
+          </div>
+          <div className="teachers-card">
+            <div
+              className="teachers-card-avatar"
+              style={{ backgroundImage: `url(${ImageTeacher5})` }}
+            />
+            <h5>Oleksandra Palmer</h5>
+            <p>Mortgage Broker</p>
           </div>
         </div>
       </div>
