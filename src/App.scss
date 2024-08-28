@@ -76,12 +76,15 @@ $color-logo: #D9DCDD;
 .main-image-block{
   max-width: 500px;
 }
+.header-wrapper .header-content img {
+  width: 100px;
+}
 
 @media (max-width: 1142px) {
   .header-content{
     display: flex;
     img{
-      width: 150px;
+      width: 100px;
       margin: 0 auto;
     }
   }
