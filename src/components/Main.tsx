@@ -5,6 +5,7 @@ import {
   FcConferenceCall,
   FcMoneyTransfer,
   FcSportsMode,
+  FcClock,
 } from 'react-icons/fc';
 import CallButton from './call-button/CallButton';
 
@@ -34,7 +35,7 @@ export default function Main() {
                 <div className="main-block">
                   <FcPlanner size={80} />
                   <div className="main-block-content">
-                    <p>Длительность курса 15 занятий. Начало с 1 июля по 16 августа.</p>
+                    <p>Длительность курса 18 занятий. Начало с 29 октября по 14 декабря.</p>
                   </div>
                 </div>
                 <div className="main-block">
@@ -47,7 +48,7 @@ export default function Main() {
                   <FcMoneyTransfer size="140px" />
                   <div className="main-block-content">
                     <p>
-                      Стоимость курса 1250$, при записи,прохождении интервью и оплате до 17 июня,
+                      Стоимость курса 1250$, при записи,прохождении интервью и оплате до 29 октября,
                       потом цена 1500$.
                     </p>
                   </div>
@@ -55,7 +56,13 @@ export default function Main() {
                 <div className="main-block">
                   <FcSportsMode size="80px" />
                   <div className="main-block-content">
-                    <p>Начало обучения - 1 Июля 2024 года.</p>
+                    <p>Начало обучения - 29 октября 2024 года.</p>
+                  </div>
+                </div>
+                <div className="main-block">
+                  <FcClock size="80px" />
+                  <div className="main-block-content">
+                    <p>Длительность каждого урока 3-3,5 часа (с перерывом)</p>
                   </div>
                 </div>
               </div>
