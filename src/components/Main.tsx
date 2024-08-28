@@ -38,12 +38,12 @@ export default function Main() {
                     <p>Длительность курса 18 занятий. Начало с 29 октября по 14 декабря.</p>
                   </div>
                 </div>
-                <div className="main-block">
+                {/* <div className="main-block">
                   <FcConferenceCall size="80px" />
                   <div className="main-block-content">
                     <p>Количество участников ограничено - 50 человек.</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="main-block">
                   <FcMoneyTransfer size="140px" />
                   <div className="main-block-content">
