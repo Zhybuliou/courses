@@ -8,6 +8,7 @@ export default function Schedule() {
       <div className="calendar-cards">
         <div className="calendar-card">
           <h2>День 1 – 07.01.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Работа с данными клиента и ответственность бухгалтера. Основы кода этики.</li>
@@ -31,6 +32,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 2 – 07.03.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Определение резидентства.</li>
@@ -49,6 +51,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 3 – 07.08.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Ответы на вопросы. Разбор домашнего задания и тестов.</li>
@@ -64,6 +67,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 4 – 07.10.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Зависимые (dependents).</li>
@@ -81,6 +85,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 5 – 07.12.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Виды дохода. Что облагается налогом, а что нет.</li>
@@ -100,6 +105,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 6 – 07.15.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Ответы на вопросы. Разбор домашнего задания и тестов.</li>
@@ -115,6 +121,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 7 – 07.17.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Доход от самозанятости – Schedule C.</li>
@@ -135,6 +142,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 8 – 07.19.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Schedule E – доход от партнерства или S Corp.</li>
@@ -153,6 +161,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 9 – 07.22.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Ответы на вопросы. Разбор домашнего задания и тестов.</li>
@@ -168,6 +177,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 10 – 07.24.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Иностранный доход.</li>
@@ -185,6 +195,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 11 – 07.26.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Корректировка декларации. 1040-X.</li>
@@ -203,6 +214,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 12 – 08.05.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Ответы на вопросы. Разбор домашнего задания и тестов.</li>
@@ -218,6 +230,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 13 – 08.07.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Пенсионные планы и страховки.</li>
@@ -236,6 +249,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 14 – 08.09.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Письма от IRS.</li>
@@ -260,6 +274,7 @@ export default function Schedule() {
         </div>
         <div className="calendar-card">
           <h2>День 15 – 08.16.2024</h2>
+          <p>Начало 12:00 PM Нью-Йорк</p>
           <div className="calendar-card-description">
             <ol>
               <li>Ответы на вопросы. Разбор финального теста.</li>
@@ -275,6 +290,10 @@ export default function Schedule() {
         </div>
       </div>
       <CallButton />
+      <p className="calendar-bottom-text">
+        Payment for the provider service is non-refundable. If you cancel service more than 5 days
+        before course start , the payment will be fully refunded.
+      </p>
     </section>
   );
 }

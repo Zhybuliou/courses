@@ -6,7 +6,6 @@ import {
   FcMoneyTransfer,
   FcSportsMode,
 } from 'react-icons/fc';
-import ImageWomen from '../assets/women.png';
 import CallButton from './call-button/CallButton';
 
 export default function Main() {
@@ -62,9 +61,7 @@ export default function Main() {
               </div>
               <CallButton />
             </div>
-            <div className="main-image-block">
-              <img src={ImageWomen} alt="women" />
-            </div>
+            <div className="main-image-block" />
           </div>
         </div>
       </div>

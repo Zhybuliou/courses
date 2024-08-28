@@ -30,12 +30,22 @@
     letter-spacing: -1px;
     border-bottom: 3px dashed #66717a6a;
   }
+  .calendar-cards p {
+    margin: 2px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #012D5A;
+  }
   .calendar-card {
     position: relative;
     margin: 10px;
     border-radius: 10px;
     min-width: 300px;
-    height: 380px;
+    height: 420px;
     box-shadow:
       rgba(0, 0, 0, 0.16) 0px 3px 6px,
       rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -111,4 +121,8 @@
     vertical-align: middle;
     font-size: 16px;
     border-radius: 50%;
+  }
+  .calendar-bottom-text{
+    margin-top: 20px;
+    color: white;
   }
