@@ -44,10 +44,12 @@ $color-logo: #D9DCDD;
 }
 .main-wrapper-blocks{
   display: flex;
-  justify-content: space-between;
 }
 .main-blocks-section{
   max-width: 700px;
+  h1{
+    padding-bottom: 20px;
+  }
 }
 .main-block {
   display: flex;
@@ -71,8 +73,7 @@ $color-logo: #D9DCDD;
   flex-wrap: wrap;
 }
 .main-image-block{
-  display: flex;
-  height: 400px;
+  max-width: 500px;
 }
 
 @media (max-width: 1077px) {

@@ -1,35 +1,21 @@
 import React from 'react';
-import {
-  FcGraduationCap,
-  FcPlanner,
-  FcConferenceCall,
-  FcMoneyTransfer,
-  FcSportsMode,
-  FcClock,
-} from 'react-icons/fc';
+import { FcGraduationCap, FcPlanner, FcMoneyTransfer, FcSportsMode, FcClock } from 'react-icons/fc';
 import CallButton from './call-button/CallButton';
+import ImageCard from './image-card/ImageCard';
 
 export default function Main() {
   return (
     <div className="main-wrapper">
       <div className="main-content">
         <div className="main-text">
-          <h1>Обучение по программе: «Налоговый специалист в США».</h1>
-          <p>
-            Чтобы попасть на курс, кроме оплаты, необходимо пройти бесплатное 15 минутное
-            собеседование с Lena Adams, через Zoom платформу, где вы получите ответы на все свои
-            вопросы касательно курса, а также условия дальнейшего сотрудничества.
-          </p>
           <div className="main-wrapper-blocks">
             <div className="main-blocks-section">
+              <h1>Обучение по программе: «Налоговый специалист в США».</h1>
               <div className="main-blocks">
                 <div className="main-block">
-                  <FcGraduationCap size="180px" />
+                  <FcGraduationCap size="80px" />
                   <div className="main-block-content">
-                    <p>
-                      Спикерами курса будут 3 (Три) Лицензированных специалиста от IRS, а также
-                      Лицензированный Финансовый консультант.
-                    </p>
+                    <p>Спикерами курса будут 5 Лицензированных специалиста.</p>
                   </div>
                 </div>
                 <div className="main-block">
@@ -38,19 +24,10 @@ export default function Main() {
                     <p>Длительность курса 18 занятий. Начало с 29 октября по 14 декабря.</p>
                   </div>
                 </div>
-                {/* <div className="main-block">
-                  <FcConferenceCall size="80px" />
-                  <div className="main-block-content">
-                    <p>Количество участников ограничено - 50 человек.</p>
-                  </div>
-                </div> */}
                 <div className="main-block">
-                  <FcMoneyTransfer size="140px" />
+                  <FcMoneyTransfer size="80px" />
                   <div className="main-block-content">
-                    <p>
-                      Стоимость курса 1250$, при записи,прохождении интервью и оплате до 29 октября,
-                      потом цена 1500$.
-                    </p>
+                    <p>Стоимость курса 1700$. Скидки при раннем бронировании.</p>
                   </div>
                 </div>
                 <div className="main-block">
@@ -67,8 +44,14 @@ export default function Main() {
                 </div>
               </div>
               <CallButton />
+              <p>
+                Payment for the provider service is non-refundable. If you cancel service more than
+                5 days before course start , the payment will be fully refunded.
+              </p>
             </div>
-            <div className="main-image-block" />
+            <div className="main-image-block">
+              <ImageCard />
+            </div>
           </div>
         </div>
       </div>
