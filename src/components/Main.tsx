@@ -20,13 +20,15 @@ export default function Main() {
                 <div className="main-block">
                   <FcGraduationCap size="80px" />
                   <div className="main-block-content">
-                    <p>Спикерами курса - 5 Лицензированных cпециалистов.</p>
+                    <p>Спикеры курса - 5 лицензированных cпециалистов.</p>
                   </div>
                 </div>
                 <div className="main-block">
                   <FcPlanner size={80} />
                   <div className="main-block-content">
-                    <p>Длительность курса 18 занятий. Начало с 29 октября по 14 декабря.</p>
+                    <p>
+                      Длительность - 18 занятий. Начало 29 октября в 12.00 EST(Нью-Йорк, Майами).
+                    </p>
                   </div>
                 </div>
                 <div className="main-block">
