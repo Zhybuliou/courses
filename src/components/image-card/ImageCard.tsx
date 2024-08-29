@@ -1,7 +1,7 @@
 import './imageCard.scss';
 import ImageTeacher from '../../assets/mentors/team-1.jpeg';
 import ImageTeacher2 from '../../assets/mentors/team-2.jpeg';
-import ImageTeacher3 from '../../assets/mentors/3.webp';
+import ImageTeacher3 from '../../assets/mentors/3-960_o.png';
 import ImageTeacher4 from '../../assets/mentors/team-4.jpeg';
 import ImageTeacher5 from '../../assets/mentors/team-5.jpg';
 
