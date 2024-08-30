@@ -121,7 +121,13 @@ $color-logo: #D9DCDD;
     }
   }
   .main-wrapper .main-text h1 {
-    font-size: 30px;
+    font-size: 29px;
+  }
+  .text-payment{
+    font-size: 11px;
+    color: #D9DCDD;
+    margin-top: 2px;
+    padding-top: 0px;
   }
 }
 @media (max-width: 420px) {

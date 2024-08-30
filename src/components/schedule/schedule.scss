@@ -5,7 +5,10 @@
     h3 {
         margin: 0;
         font-size: 40px;
-        color: #ffffff;
+        background: linear-gradient(rgb(252, 251, 251), rgb(185, 185, 186));
+      -webkit-background-clip: text;
+              background-clip: text;
+      -webkit-text-fill-color: transparent;
         text-align: center;
     }
 }
@@ -87,6 +90,11 @@
     }
   }
   @media (max-width: 839px) {
+    .schedule-wrapper{
+      h3 {
+          font-size: 35px;
+      }
+  }
     .calendar-card {
         height: auto;
         width: 320px;
