@@ -39,6 +39,10 @@ $color-logo: #D9DCDD;
       margin: 0;
       font-weight: 700;
       font-size: 40px;
+      background: linear-gradient(rgb(252, 251, 251), rgb(185, 185, 186));
+      -webkit-background-clip: text;
+              background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 }
@@ -78,6 +82,12 @@ $color-logo: #D9DCDD;
 }
 .header-wrapper .header-content img {
   width: 100px;
+}
+.text-payment{
+  font-size: 14px;
+  color: #D9DCDD;
+  margin-top: 2px;
+  padding-top: 0px;
 }
 
 @media (max-width: 1142px) {

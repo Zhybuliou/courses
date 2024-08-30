@@ -1,0 +1,72 @@
+.carousel-section{
+    h3{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        background: linear-gradient(rgb(252, 251, 251), rgb(185, 185, 186));
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.carousel-wrapper{
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+
+.carousel-content{
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+    overflow-x: hidden;
+    margin-bottom: 40px;
+}
+.carousel-content::before{
+    content: '';
+    position: absolute;
+    top:0; /* растягиваем под размер блока */
+    left:-6px;
+    right:0;
+    bottom:0; 
+    border-left: 16px solid #012D5A;
+    filter: blur(3px);
+    z-index: 3;
+  }
+  .carousel-content::after{
+    content: '';
+    position: absolute;
+    top:0; /* растягиваем под размер блока */
+    left: 0;
+    right:-6px;
+    bottom:0; 
+    border-right: 16px solid #012D5A;
+    filter: blur(3px);
+    z-index: 3;
+  }
+.feedback-card{
+    position: relative;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    p{
+        position: absolute;
+        color: gray;
+        top: 19%;
+        left: 12%;
+        font-size: 11px;
+        width: 210px;
+    }
+    h5{
+        position: absolute;
+        color: gray;
+        top: 53%;
+        left: 28%;
+        width: 140px;
+    }
+}

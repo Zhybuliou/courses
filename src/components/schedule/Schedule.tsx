@@ -21,7 +21,7 @@ export default function Schedule() {
         ))}
       </div>
       <CallButton />
-      <p className="calendar-bottom-text">
+      <p className="text-payment">
         Payment for the provider service is non-refundable. If you cancel service more than 5 days
         before course start , the payment will be fully refunded.
       </p>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function CallButton() {
   return (
     <Link to="https://calendly.com/usataxes" className="pulse-button">
-      записаться на интервью
+      <p>записаться на интервью</p>
     </Link>
   );
 }
