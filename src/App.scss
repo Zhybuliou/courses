@@ -21,9 +21,6 @@ $color-logo: #D9DCDD;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 5px;
-    img{
-      width: 150px;
-    }
   }
 }
 .main-wrapper{
@@ -80,9 +77,6 @@ $color-logo: #D9DCDD;
 .main-image-block{
   max-width: 500px;
 }
-.header-wrapper .header-content img {
-  width: 100px;
-}
 .text-payment{
   font-size: 14px;
   color: #D9DCDD;
@@ -93,10 +87,6 @@ $color-logo: #D9DCDD;
 @media (max-width: 1142px) {
   .header-content{
     display: flex;
-    img{
-      width: 100px;
-      margin: 0 auto;
-    }
   }
   .main-image-block {
       display: none;
