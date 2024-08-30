@@ -52,20 +52,20 @@
 .feedback-card{
     position: relative;
     height: 200px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     p{
         position: absolute;
         color: gray;
         top: 19%;
         left: 12%;
-        font-size: 11px;
-        width: 210px;
+        font-size: 12px;
+        width: 230px;
     }
     h5{
         position: absolute;
         color: gray;
-        top: 53%;
+        top: 58%;
         left: 28%;
         width: 140px;
     }
@@ -73,7 +73,7 @@
 @media (max-width: 420px) {
     .feedback-card{
         p{
-            font-size: 10px;
+            font-size: 12px;
         }
     }
     .carousel-section{

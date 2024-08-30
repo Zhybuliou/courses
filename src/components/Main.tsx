@@ -52,7 +52,7 @@ export default function Main() {
                 </div>
               </div>
               <CallButton />
-              <p className='text-payment'>
+              <p className="text-payment">
                 Payment for the provider service is non-refundable. If you cancel service more than
                 5 days before course start , the payment will be fully refunded.
               </p>

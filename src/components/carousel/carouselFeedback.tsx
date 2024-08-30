@@ -22,7 +22,7 @@ export default function CarouselFeedback() {
               drag: true,
               arrows: false, // Hide navigation arrows
               pagination: false, // Hide pagination dots
-              fixedWidth: '320px', // Fixed width for each slide
+              fixedWidth: '330px', // Fixed width for each slide
               gap: '12px', // Gap between slides
             }}
             extensions={{ AutoScroll }} // Use the AutoScroll extension
