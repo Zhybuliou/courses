@@ -8,6 +8,7 @@ import {
 import CallButton from './call-button/CallButton';
 import ImageCard from './image-card/ImageCard';
 import CarouselFeedback from './carousel/carouselFeedback';
+import FlipCountdown from './flip-countdown/flipCountdown';
 
 export default function Main() {
   return (
@@ -62,6 +63,7 @@ export default function Main() {
             </div>
           </div>
         </div>
+        <FlipCountdown />
         <CarouselFeedback />
       </div>
     </div>

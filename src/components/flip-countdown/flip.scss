@@ -1,0 +1,48 @@
+.flip-clock {
+    --fcc-flip-duration: 0.5s; /* transition duration when flip card */
+    --fcc-spacing: 8px; /* space between unit times and separators */
+    --fcc-digit-block-width: 40px; /* width of digit card */
+    --fcc-digit-block-height: 60px; /* height of digit card, highly recommend in even number */
+    --fcc-digit-block-radius: 5px; /* border radius of digit card */
+    --fcc-digit-block-spacing: 5px; /* space between blocks in each unit of time */
+    --fcc-digit-font-size: 40px; /* font size of digit */
+    --fcc-digit-color: #012D5A; /* color of digit */
+    --fcc-label-font-size: 12px; /* font size of label */
+    --fcc-label-color: #ffffff; /* color of label */
+    --fcc-background: linear-gradient(rgb(252, 251, 251), rgb(185, 185, 186));
+    --fcc-divider-color: #012D5A; /* color of divider */
+    --fcc-divider-height: 1px; /* height of divider */
+    --fcc-separator-size: 6px; /* size of colon */
+    --fcc-separator-color: red; /* color of colon */
+    display: flex;
+    justify-content: center;
+    --fcc-digit-font-weight: 800;
+  }
+
+
+.flip-clock-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 0;
+    h3{
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    background: linear-gradient(rgb(252, 251, 251), rgb(185, 185, 186));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 420px) {
+    .flip-clock {
+    --fcc-spacing: 4px; /* space between unit times and separators */
+    --fcc-digit-block-width: 30px; /* width of digit card */
+    --fcc-digit-block-height: 40px; /* height of digit card, highly recommend in even number */
+    --fcc-digit-font-size: 30px; /* font size of digit */
+  }
+  }
