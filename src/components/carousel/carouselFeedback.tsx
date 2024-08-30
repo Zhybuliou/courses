@@ -19,6 +19,7 @@ export default function CarouselFeedback() {
                 rewind: true, // Rewind to start when the end is reached
                 speed: 0.5, // Scrolling speed
               },
+              drag: true,
               arrows: false, // Hide navigation arrows
               pagination: false, // Hide pagination dots
               fixedWidth: '320px', // Fixed width for each slide

@@ -17,6 +17,7 @@
     position: relative;
     display: flex;
     height: 100%;
+    margin-bottom: 40px;
 }
 
 .carousel-content{
@@ -25,29 +26,28 @@
     position: relative;
     z-index: 20;
     overflow-x: hidden;
-    margin-bottom: 40px;
 }
-.carousel-content::before{
+.carousel-wrapper::before{
     content: '';
+    width: 16px;
     position: absolute;
     top:0; /* растягиваем под размер блока */
     left:-6px;
-    right:0;
     bottom:0; 
     border-left: 16px solid #012D5A;
     filter: blur(3px);
-    z-index: 3;
+    z-index: 23;
   }
-  .carousel-content::after{
+  .carousel-wrapper::after{
     content: '';
+    width: 16px;
     position: absolute;
     top:0; /* растягиваем под размер блока */
-    left: 0;
     right:-6px;
     bottom:0; 
     border-right: 16px solid #012D5A;
     filter: blur(3px);
-    z-index: 3;
+    z-index: 23;
   }
 .feedback-card{
     position: relative;
