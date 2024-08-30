@@ -4,6 +4,7 @@ import {
   FcMoneyTransfer,
   FcClock,
   FcSalesPerformance,
+  FcCamcorderPro,
 } from 'react-icons/fc';
 import CallButton from './call-button/CallButton';
 import ImageCard from './image-card/ImageCard';
@@ -46,9 +47,15 @@ export default function Main() {
                   </div>
                 </div>
                 <div className="main-block">
-                  <FcMoneyTransfer size="60px" />
+                  <FcMoneyTransfer size="50px" />
                   <div className="main-block-content">
                     <p>Стоимость курса 1700$.</p>
+                  </div>
+                </div>
+                <div className="main-block">
+                  <FcCamcorderPro size="60px" />
+                  <div className="main-block-content">
+                    <p>Запись каждого урока остается для просмотра.</p>
                   </div>
                 </div>
               </div>
