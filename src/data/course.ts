@@ -129,7 +129,7 @@ const courses = [
     date: 'День 12 – 11.22.2024',
     timeStart: 'Начало 12:00 PM Нью-Йорк',
     description: ['Установка и настройка программного обеспечения'],
-    speaker: ['Lena Adams – Enrolled Agent', 'Leo Gordon – Enrolled Agent'],
+    speaker: ['Lena Adams – Enrolled Agent'],
   },
   {
     id: 13,
@@ -138,7 +138,7 @@ const courses = [
     description: [
       'Работа в программе: внесение форм, проверка корректности формирования декларации, отправка.',
     ],
-    speaker: ['Lena Adams – Enrolled Agent', 'Leo Gordon – Enrolled Agent'],
+    speaker: ['Lena Adams – Enrolled Agent'],
   },
   {
     id: 14,
@@ -172,7 +172,7 @@ const courses = [
   {
     id: 17,
     date: 'День 17 – 12.06.2024',
-    timeStart: 'Начало 6:30 PM Нью-Йорк',
+    timeStart: 'Начало 12:00 PM Нью-Йорк',
     description: [
       'Взаимодействие налогового специалиста с ипотечным брокером. На что обратить внимание.',
     ],
@@ -181,7 +181,7 @@ const courses = [
   {
     id: 18,
     date: 'День 18 – 12.14.2024',
-    timeStart: 'Начало 12:00 PM Нью-Йорк',
+    timeStart: 'Начало 6:30 PM Нью-Йорк',
     description: ['Ответы на вопросы. Разбор финального теста.'],
     speaker: ['Leo Gordon – Enrolled Agent', 'Lena Adams – Enrolled Agent'],
   },
