@@ -10,6 +10,7 @@ import CallButton from './call-button/CallButton';
 import ImageCard from './image-card/ImageCard';
 import CarouselFeedback from './carousel/carouselFeedback';
 import FlipCountdown from './flip-countdown/flipCountdown';
+import CountUsers from './count-users/countUsers';
 
 export default function Main() {
   return (
@@ -71,6 +72,7 @@ export default function Main() {
           </div>
         </div>
         <FlipCountdown />
+        <CountUsers />
         <CarouselFeedback />
       </div>
     </div>
