@@ -33,7 +33,7 @@ export default function CarouselFeedback() {
                   Просто самая необходимая информация,особенно для тех,кто недавно
                   приехал!Профессионализм Лео и Лены как всегда на высоте и они делятся с нами.
                 </p>
-                <h5>Lyudmyla Hentsar</h5>
+                <h4>Lyudmyla Hentsar</h4>
               </div>
             </SplideSlide>
             <SplideSlide>
@@ -42,7 +42,7 @@ export default function CarouselFeedback() {
                   Огромная благодарность всем спикерам курса по налогам за обучение на таком высоком
                   уровне, где теория беспрекословно встречается с практикой и многолетним опытом.
                 </p>
-                <h5>Karyna Moroz</h5>
+                <h4>Karyna Moroz</h4>
               </div>
             </SplideSlide>
             <SplideSlide>
@@ -51,7 +51,7 @@ export default function CarouselFeedback() {
                   Спасибо Вам Лена и Лео! Знания и советы из личного опыты, которые вы нам передали,
                   однозначно, лучшее на что мы могли расчитывать! Вы лучшие спикеры!
                 </p>
-                <h5>Svetlana Bichenova</h5>
+                <h4>Svetlana Bichenova</h4>
               </div>
             </SplideSlide>
             <SplideSlide>
@@ -60,7 +60,7 @@ export default function CarouselFeedback() {
                   Я рекомендую всем, кто только начинает свой путь в налогах в этой стране и кто
                   хочет восполнить знания. Эта команда даёт больше,чем Вы заплатите.
                 </p>
-                <h5>Лена Матвеева- Голодная</h5>
+                <h4>Лена Матвеева- Голодная</h4>
               </div>
             </SplideSlide>
           </Splide>

@@ -18,10 +18,10 @@ export default function Mentors() {
               className="teachers-card-avatar"
               style={{ backgroundImage: `url(${ImageTeacher})` }}
             />
-            <h5>
+            <h4>
               Lena
               <br /> Adams
-            </h5>
+            </h4>
             <p>Enrolled Agent</p>
           </div>
           <div className="teachers-card">
@@ -29,10 +29,10 @@ export default function Mentors() {
               className="teachers-card-avatar"
               style={{ backgroundImage: `url(${ImageTeacher3})` }}
             />
-            <h5>
+            <h4>
               Leo
               <br /> Gordon
-            </h5>
+            </h4>
             <p>Enrolled Agent</p>
           </div>
           <div className="teachers-card">
@@ -40,7 +40,7 @@ export default function Mentors() {
               className="teachers-card-avatar"
               style={{ backgroundImage: `url(${ImageTeacher4})` }}
             />
-            <h5>Dmytro Arshynov</h5>
+            <h4>Dmytro Arshynov</h4>
             <p>Enrolled Agent</p>
             <p>Tax Resolution Specialist</p>
             <p>Certified Tax Coach</p>
@@ -50,7 +50,7 @@ export default function Mentors() {
               className="teachers-card-avatar"
               style={{ backgroundImage: `url(${ImageTeacher2})` }}
             />
-            <h5>Alexander Kandelaki</h5>
+            <h4>Alexander Kandelaki</h4>
             <p>Financial Advisor</p>
           </div>
           <div className="teachers-card">
@@ -58,7 +58,7 @@ export default function Mentors() {
               className="teachers-card-avatar"
               style={{ backgroundImage: `url(${ImageTeacher5})` }}
             />
-            <h5>Oleksandra Palmer</h5>
+            <h4>Oleksandra Palmer</h4>
             <p>Mortgage Broker</p>
           </div>
         </div>

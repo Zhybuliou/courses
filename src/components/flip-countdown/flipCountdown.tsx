@@ -5,7 +5,7 @@ import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 export default function FlipCountdown() {
   return (
     <div className="flip-clock-wrapper">
-      <h3>До Начала Курса Осталось</h3>
+      <h2>До Начала Курса Осталось</h2>
       <FlipClockCountdown
         className="flip-clock"
         to={new Date('2024-10-29')}

@@ -25,7 +25,7 @@ export default function CountUsers() {
 
   return (
     <div className="count-wrapper">
-      <h4 className="neonText">Осталось Мест:</h4>
+      <h3 className="neonText">Осталось Мест:</h3>
       <div className="text-wrapper">
         <p>{csvData}</p>
       </div>

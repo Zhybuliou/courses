@@ -14,7 +14,7 @@ export default function ScheduleCard({ ...props }: IScheduleCard) {
         </ol>
       </div>
       <div className="calendar-card-mentors">
-        <h5>Спикер:</h5>
+        <p>Спикер:</p>
         <ul>
           {props.speaker.map((speaker, i) => (
             <li key={i}>{speaker}</li>
