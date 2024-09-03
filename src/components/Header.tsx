@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="header-wrapper">
       <div className="header-content">
-        <img src={ImageLogo} alt="Logo" width="100px" height="83px" />
+        <img src={ImageLogo} alt="Logo" width="100px" height="83px" title="logo usa taxes" />
       </div>
     </div>
   );
