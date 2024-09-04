@@ -3,7 +3,7 @@ import IScheduleCard from '../../interface/interface';
 
 export default function ScheduleCard({ ...props }: IScheduleCard) {
   return (
-    <>
+    <div className="calendar-card">
       <h2>{props.date}</h2>
       <p>{props.timeStart}</p>
       <div className="calendar-card-description">
@@ -21,6 +21,6 @@ export default function ScheduleCard({ ...props }: IScheduleCard) {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
