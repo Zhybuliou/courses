@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import './count-users.scss';
 import axios from 'axios';
@@ -38,31 +38,33 @@ export default function CountUsers() {
   }, []);
 
   return (
-    <div className="count-wrapper">
-      <motion.h3
-        custom={1}
-        variants={buttonAnimation}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        className="neonText"
-      >
-        Осталось Мест:
-      </motion.h3>
-      <div className="text-wrapper">
-        <p>
-          {csvData || (
-            <img
-              src={Loading}
-              alt="Logo"
-              width="50px"
-              height="60px"
-              title="logo usa taxes"
-              loading="lazy"
-            />
-          )}
-        </p>
+    <AnimatePresence>
+      <div className="count-wrapper">
+        <motion.h3
+          custom={1}
+          variants={buttonAnimation}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="neonText"
+        >
+          Осталось Мест:
+        </motion.h3>
+        <div className="text-wrapper">
+          <p>
+            {csvData || (
+              <img
+                src={Loading}
+                alt="Logo"
+                width="50px"
+                height="60px"
+                title="logo usa taxes"
+                loading="lazy"
+              />
+            )}
+          </p>
+        </div>
       </div>
-    </div>
+    </AnimatePresence>
   );
 }
