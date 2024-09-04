@@ -1,13 +1,34 @@
+import { motion } from 'framer-motion';
 import './carousel.scss';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/splide/dist/css/splide.min.css';
 import ImageFeedback from '../../assets/feedback.webp';
 
+const buttonAnimation = {
+  hidden: {
+    scale: 0,
+    opacity: 0,
+  },
+  visible: (custom: number) => ({
+    scale: 1,
+    opacity: 1,
+    transition: { delay: custom * 0.2, duration: 0.5 },
+  }),
+};
+
 export default function CarouselFeedback() {
   return (
     <div className="carousel-section">
-      <h3>Отзывы</h3>
+      <motion.h3
+        custom={1}
+        variants={buttonAnimation}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ amount: 0.2, once: true }}
+      >
+        Отзывы
+      </motion.h3>
       <div className="carousel-wrapper">
         <div className="carousel-content">
           <Splide

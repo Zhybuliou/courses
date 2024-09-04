@@ -1,7 +1,20 @@
+import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import './count-users.scss';
 import axios from 'axios';
 import Loading from '../../assets/loading-dots.gif';
+
+const buttonAnimation = {
+  hidden: {
+    scale: 0,
+    opacity: 0,
+  },
+  visible: (custom: number) => ({
+    scale: 1,
+    opacity: 1,
+    transition: { delay: custom * 0.2, duration: 0.5 },
+  }),
+};
 
 export default function CountUsers() {
   const [csvData, setCsvData] = useState('');
@@ -26,7 +39,16 @@ export default function CountUsers() {
 
   return (
     <div className="count-wrapper">
-      <h3 className="neonText">Осталось Мест:</h3>
+      <motion.h3
+        custom={1}
+        variants={buttonAnimation}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="neonText"
+      >
+        Осталось Мест:
+      </motion.h3>
       <div className="text-wrapper">
         <p>
           {csvData || (
