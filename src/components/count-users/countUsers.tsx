@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './count-users.scss';
 import axios from 'axios';
+import Loading from '../../assets/loading-dots.gif';
 
 export default function CountUsers() {
   const [csvData, setCsvData] = useState('');
@@ -27,7 +28,18 @@ export default function CountUsers() {
     <div className="count-wrapper">
       <h3 className="neonText">Осталось Мест:</h3>
       <div className="text-wrapper">
-        <p>{csvData}</p>
+        <p>
+          {csvData || (
+            <img
+              src={Loading}
+              alt="Logo"
+              width="50px"
+              height="60px"
+              title="logo usa taxes"
+              loading="lazy"
+            />
+          )}
+        </p>
       </div>
     </div>
   );
