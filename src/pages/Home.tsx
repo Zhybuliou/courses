@@ -9,7 +9,7 @@ export default function Home() {
   ReactGA.send({
     hitType: 'pageview',
     page: '/',
-    title: 'Home',
+    title: 'Обучение по программе: «Налоговый специалист в США».',
   });
   return (
     <>
