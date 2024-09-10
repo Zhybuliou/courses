@@ -18,6 +18,8 @@ $color-logo: #D9DCDD;
   background-color: $base-color;
   color: $text-white;
   .header-content{
+    display: flex;
+    justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 5px;
@@ -87,6 +89,7 @@ $color-logo: #D9DCDD;
 @media (max-width: 1142px) {
   .header-content{
     display: flex;
+    flex-direction: column;
     img{
       margin: 0 auto;
     }
@@ -133,6 +136,6 @@ $color-logo: #D9DCDD;
     min-width: 200px;
   }
   .main-wrapper .main-text h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
 }

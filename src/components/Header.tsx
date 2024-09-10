@@ -1,4 +1,5 @@
 import ImageLogo from '../assets/logo-solo.png';
+import SocialLink from './social-link/SocialLink';
 
 export default function Header() {
   return (
@@ -12,6 +13,7 @@ export default function Header() {
           title="logo usa taxes"
           loading="lazy"
         />
+        <SocialLink />
       </div>
     </div>
   );
