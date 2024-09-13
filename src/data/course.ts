@@ -157,7 +157,11 @@ const courses = [
       'HSA/FSA.',
       'Финансовое планирование.',
     ],
-    speaker: ['Lena Adams – Enrolled Agent', 'Alex Kandelaki – Financial Advisor'],
+    speaker: [
+      'Lena Adams – Enrolled Agent',
+      'Alex Kandelaki – Financial Advisor',
+      'Presentation is the additional benefit to a course',
+    ],
   },
   {
     id: 16,
@@ -176,7 +180,13 @@ const courses = [
     description: [
       'Взаимодействие налогового специалиста с ипотечным брокером. На что обратить внимание.',
     ],
-    speaker: ['Oleksandra Palmer – Mortgage Broker', 'Lena Adams – Enrolled Agent'],
+    speaker: [
+      'Oleksandra Palmer – Mortgage Loan Officer NMLS1561169 Lending Capital Group Inc NMLS1680087',
+      ' ',
+      'Lena Adams – Enrolled Agent',
+      '  ',
+      'Presentation is the additional benefit to a course',
+    ],
   },
   {
     id: 18,
