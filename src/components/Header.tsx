@@ -1,4 +1,4 @@
-import ImageLogo from '../assets/logo-solo.png';
+import ImageLogo from '../assets/logo-solo.webp';
 import SocialLink from './social-link/SocialLink';
 
 export default function Header() {

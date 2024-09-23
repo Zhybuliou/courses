@@ -4,7 +4,7 @@ import IScheduleCard from '../../interface/interface';
 export default function ScheduleCard({ ...props }: IScheduleCard) {
   return (
     <div className="calendar-card">
-      <h2>{props.date}</h2>
+      <p className="calendar-card-header">{props.date}</p>
       <p>{props.timeStart}</p>
       <div className="calendar-card-description">
         <ol>

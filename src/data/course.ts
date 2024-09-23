@@ -160,7 +160,7 @@ const courses = [
     speaker: [
       'Lena Adams – Enrolled Agent',
       'Alex Kandelaki – Financial Advisor',
-      'Presentation is the additional benefit to a course',
+      'Presentation is an additional benefit to a course',
     ],
   },
   {
@@ -185,7 +185,7 @@ const courses = [
       ' ',
       'Lena Adams – Enrolled Agent',
       '  ',
-      'Presentation is the additional benefit to a course',
+      'Presentation is an additional benefit to a course',
     ],
   },
   {
