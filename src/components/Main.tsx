@@ -3,14 +3,13 @@ import {
   FcPlanner,
   FcMoneyTransfer,
   FcClock,
-  FcSalesPerformance,
+  FcCellPhone,
   FcCamcorderPro,
 } from 'react-icons/fc';
 import CallButton from './call-button/CallButton';
 import ImageCard from './image-card/ImageCard';
 import CarouselFeedback from './carousel/carouselFeedback';
 import FlipCountdown from './flip-countdown/flipCountdown';
-import CountUsers from './count-users/countUsers';
 
 export default function Main() {
   return (
@@ -36,9 +35,14 @@ export default function Main() {
                   </div>
                 </div>
                 <div className="main-block">
-                  <FcSalesPerformance size="60px" />
+                  <FcCellPhone size="60px" />
                   <div className="main-block-content">
-                    <p>Скидки при раннем бронировании.</p>
+                    <p className="tel-block">
+                      <a href="tel:+ 1 (908) 926-4260">
+                        Контактный телефон:
+                        <br /> + 1 (908) 926-4260
+                      </a>
+                    </p>
                   </div>
                 </div>
                 <div className="main-block">
@@ -64,7 +68,7 @@ export default function Main() {
                 <CallButton />
                 <p className="text-payment">
                   Payment for the provider service is non-refundable. If you cancel service more
-                  than 21 days before course start , the payment will be fully refunded.
+                  than 21 business day before course start , the payment will be fully refunded.
                 </p>
               </div>
             </div>
@@ -74,7 +78,6 @@ export default function Main() {
           </div>
         </div>
         <FlipCountdown />
-        <CountUsers />
         <CarouselFeedback />
       </div>
     </div>
